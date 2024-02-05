@@ -15,6 +15,7 @@ class TicketController extends Controller
     public function index()
     {
         //
+        return view('ticket.index');
     }
 
     /**
@@ -25,6 +26,8 @@ class TicketController extends Controller
     public function create()
     {
         //
+
+        return view('ticket.create');
     }
 
     /**
